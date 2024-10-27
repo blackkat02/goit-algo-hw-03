@@ -1,0 +1,61 @@
+# Compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+.venv/
+env/
+ENV/
+venv/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# Logs and Coverage Reports
+*.log
+.coverage
+.coverage.*
+.cache
+.tox/
+.nox/
+*.cover
+*.py,cover
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Unit Test Reports
+.pytest_cache/
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE / Editor Configurations
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Documentation / Sphinx
+docs/_build/
+.site
+
+# Environment Settings
+.env
+.local_settings.py
+
+# Package Manager Locks
+Pipfile.lock
+poetry.lock
+pdm.lock
